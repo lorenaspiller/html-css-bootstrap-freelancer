@@ -16,4 +16,16 @@ nav {
   text-align: right;
 }
 /* /nav__right */
+
+/* hero */
+.hero {
+  background-color: pink;
+}
+
+.hero__contenuto {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 0;
+}
+/* /hero */
 /* /intestazione */
