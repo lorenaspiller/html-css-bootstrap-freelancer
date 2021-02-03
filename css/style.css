@@ -63,4 +63,15 @@ nav {
 }
 /* sezione about */
 
+/* sezione contact */
+.contact {
+  background-color: #FCECC0;
+}
+
+.contact__form {
+  max-width: 900px;
+  margin: auto;
+}
+/* /sezione contact */
+
 /* /main */
