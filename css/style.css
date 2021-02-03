@@ -4,6 +4,13 @@
   border: 1px solid #000;
 }
 
+/* mix */
+.padding--tb {
+  padding: 30px 0;
+}
+/* /mix */
+
+
 /* intestazione */
 /* nav */
 nav {
@@ -36,10 +43,6 @@ nav {
   background-color: #E0BBE4;
 }
 
-.portfolio__titolo {
-  padding: 30px 0;
-}
-
 .portfolio__box {
   min-width: 300px;
   margin: auto;
@@ -48,4 +51,16 @@ nav {
   margin-top: 30px;
 }
 /* /sezione portfolio */
+
+/* sezione about */
+.about {
+  background-color: #D4EBD4;
+}
+
+.about__contenuto {
+  max-width: 900px;
+  margin: auto;
+}
+/* sezione about */
+
 /* /main */
