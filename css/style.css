@@ -3,3 +3,17 @@
   background-color: pink;
   border: 1px solid #000;
 }
+
+/* intestazione */
+/* nav */
+nav {
+  background-color: lightblue;
+  padding: 40px 0;
+}
+/* /nav */
+/* nav__right */
+.nav__right {
+  text-align: right;
+}
+/* /nav__right */
+/* /intestazione */
