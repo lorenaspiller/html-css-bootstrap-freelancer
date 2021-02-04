@@ -13,4 +13,16 @@ button {
 .btn--download {
   border-color: #fff;
   color: #fff;
+  margin-bottom: 100px;
+}
+
+
+.form--custom {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 25px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
