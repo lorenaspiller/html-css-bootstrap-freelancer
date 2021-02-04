@@ -9,3 +9,8 @@ btn--color{
 button {
   text-align: right;
 }
+
+.btn--download {
+  border-color: #fff;
+  color: #fff;
+}
