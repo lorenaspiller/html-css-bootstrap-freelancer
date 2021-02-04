@@ -259,7 +259,7 @@
       <!-- sezione about -->
 
       <!-- sezione contact -->
-      <section class="contact">
+      <section class="contact padding--tb--big">
 
         <!-- contenitore contact titolo-->
         <div class="container">
@@ -284,21 +284,38 @@
 
         <!-- contact form -->
         <div class="contact__form padding--tb">
+          <!-- form -->
           <form>
+            <!-- name -->
             <div class="form-group form--margin">
               <input type="text" class="form-control form--custom" placeholder="Name">
             </div>
+            <!-- /name -->
+
+            <!-- email address -->
             <div class="form-group form--margin">
               <input type="email" class="form-control form--custom" id="exampleInputEmail1" placeholder="Email Address">
             </div>
+            <!-- /email address -->
+
+            <!-- phone number -->
             <div class="form-group form--margin">
               <input type="tel" class="form-control form--custom" placeholder="Phone Number">
             </div>
+            <!-- /phone number -->
+
+            <!-- message -->
             <div class="form-group form--margin">
-              <textarea class="form--textarea form--custom" name="name" rows="5" cols="80" placeholder="Message"></textarea>
+              <textarea class="form--textarea form--custom form-control" name="name" rows="5" placeholder="Message"></textarea>
             </div>
+            <!-- /message -->
+
+            <!-- button form -->
             <button type="submit" class="btn btn-lg btn--green color-white">Send</button>
+            <!-- /button form -->
+
           </form>
+          <!-- /form -->
         </div>
         <!-- contact form -->
       </section>
@@ -316,26 +333,45 @@
           <div class="row">
             <!-- colonna -->
             <div class="col-xs-12 col-md-4">
+              <!-- location -->
               <div class="ft__location">
                 <h5 class="text-uppercase">Location</h5>
                 <p>2215 John Daniel Drive <br> Clark, MO 65243</p>
               </div>
+              <!-- /location -->
             </div>
             <!-- colonna -->
 
             <!-- colonna -->
             <div class="col-xs-12 col-md-4">
+              <!-- around the web -->
               <div class="ft__around">
                 <h5 class="text-uppercase">around the web</h5>
+                <!-- social list -->
                 <div class="social_list">
                   <ul class="list-inline">
-                    <li><a href="https://facebook.com" class="social__btn color-white"><i class="fab fa-fw fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="social__btn color-white"><i class="fab fa-fw fa-twitter"></i></a></li>
-                    <li><a href="#" class="social__btn color-white"><i class="fab fa-fw fa-linkedin-in"></i></a></li>
-                    <li><a href="#" class="social__btn color-white"><i class="fab fa-fw fa-dribbble"></i></a></li>
+
+                    <!-- facebook -->
+                    <li><a href="https://facebook.com" target=”_blank” class="social__btn color-white"><i class="fab fa-fw fa-facebook-f"></i></a></li>
+                    <!-- /facebook -->
+
+                    <!-- twitter -->
+                    <li><a href="https://twitter.com" target=”_blank” class="social__btn color-white"><i class="fab fa-fw fa-twitter"></i></a></li>
+                    <!-- /twitter -->
+
+                    <!-- linkedin -->
+                    <li><a href="https://linkedin.com" target=”_blank” class="social__btn color-white"><i class="fab fa-fw fa-linkedin-in"></i></a></li>
+                    <!-- /linkedin -->
+
+                    <!-- dribble -->
+                    <li><a href="#" target=”_blank” class="social__btn color-white"><i class="fab fa-fw fa-dribbble"></i></a></li>
+                    <!-- dribble -->
+
                   </ul>
                 </div>
+                <!-- /social list -->
               </div>
+              <!-- /around the web -->
             </div>
             <!-- colonna -->
 
@@ -356,11 +392,13 @@
 
       <!-- footer bottom -->
       <div class="footer__bottom bg-primary--dark">
+
         <!-- footer bottom copyright -->
         <div class="fb__copyright padding--tb">
           <p><small>Copyright © Your Website 2020</small></p>
         </div>
         <!-- footer bottom copyright -->
+        
       </div>
       <!-- /footer bottom -->
     </footer>
