@@ -32,16 +32,39 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+.divider {
+  line-height: 40px;
+  margin: 40px 0;
+}
+
+.star {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  font-size: 30px;
+}
+
+.divider::before, .divider::after {
+  content: "";
+  height: 4px;
+  width: 20%;
+  border-radius: 16px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
 /* /mix */
+
+/* typo */
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+/* /typo */
 
 
 /* intestazione */
 /* header top */
-header a {
-  color: white;
-  text-transform: uppercase;
-}
-
 .header__top {
   padding: 20px 0;
   position: fixed;
@@ -85,9 +108,18 @@ header a {
 }
 
 .hero__contenuto {
-  max-width: 600px;
+  max-width: 650px;
   margin: auto;
   padding: 40px 0;
+}
+
+.hero__img {
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+
+.ht__paragraph {
+  font-size: 20px;
 }
 /* /hero */
 /* /intestazione */
