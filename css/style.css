@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 /* debug */
 .debug {
@@ -45,6 +49,18 @@ a {
   display: inline-block;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
 /* divider */
 .divider {
   line-height: 40px;
@@ -83,6 +99,10 @@ a {
 /* /mix */
 
 /* typo */
+h1, h2, h5, .header__top {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
   font-weight: 700;
   font-size: 60px;
@@ -107,7 +127,7 @@ h5 {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   z-index: 1;
   font-weight: 700;
   font-size: 25px;
@@ -124,13 +144,15 @@ h5 {
 }
 
 .header__top a:hover {
-  text-decoration: none;
   color: #fff;
 }
 
 .header__top nav a:hover {
   color: #117964;
-  text-decoration: none;
+}
+
+.ht__navigazione ul {
+  margin-bottom: 0;
 }
 
 .btn--custom {
@@ -140,6 +162,10 @@ h5 {
 
 .btn--custom .hamburger {
   padding: 0 5px;
+}
+
+.btn--custom:hover {
+  color: #fff;
 }
 /* /navigazione */
 /* /header top */
@@ -176,17 +202,19 @@ h5 {
 .portfolio__box {
   margin: auto;
   margin-top: 30px;
+  border-radius: 10px;
+  overflow: hidden;
   position: relative;
 }
 
 .portfolio__img {
   width: 100%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .portfolio__plus {
   background-color: rgba(26, 188, 156, 0.9);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   position: absolute;
   left: 0;
   right: 0;
@@ -229,6 +257,7 @@ h5 {
 }
 
 .btn--download:hover {
+  color: #000;
   background-color: #fff;
 }
 /* sezione about */
@@ -286,7 +315,7 @@ h5 {
   border: 2px solid #fff;
   width: 50px;
   height: 50px;
-  line-height: 50px;
+  line-height: 46px;
   vertical-align: middle;
   text-align: center;
   font-size: 20px;
@@ -294,7 +323,7 @@ h5 {
 
 .social__btn:hover {
   background: #fff;
-  color: #000;
+  color: #2c3e50;
 }
 /* footer top */
 
