@@ -247,6 +247,7 @@ h5 {
   font-size: 25px;
   padding-left: 0;
   color: #495057;
+  width: 100%;
 }
 
 .form--margin {
@@ -263,6 +264,10 @@ h5 {
 
 .form--textarea {
   width: 100%;
+}
+
+::placeholder {
+  color: #495057;
 }
 /* /sezione contact */
 /* /main */
