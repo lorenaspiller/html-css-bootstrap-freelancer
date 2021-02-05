@@ -308,6 +308,26 @@ h5 {
   text-decoration: underline;
 }
 /* /footer bottom */
-
-
 /* footer */
+
+
+/* RESPONSIVE */
+
+/* < 991px */
+@media screen and (max-width: 991px) {
+
+  h5{
+    margin-top: 35px;
+  }
+
+}
+
+/* < 420px */
+@media screen and (max-width: 420px) {
+
+  h1{
+    font-size: 40px;
+  }
+
+}
+/* /RESPONSIVE */
